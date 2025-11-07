@@ -79,16 +79,16 @@ pip install -r requirements.txt
 Create a `.env` file in the project root:
 ```env
 # Database Configuration
-DATABASE_HOSTNAME=localhost
-DATABASE_PORT=5432
-DATABASE_USERNAME=postgres
-DATABASE_PASSWORD=postgres
-DATABASE_NAME=fastapi
+DATABASE_HOSTNAME=
+DATABASE_PORT=
+DATABASE_USERNAME=
+DATABASE_PASSWORD=
+DATABASE_NAME=
 
 # JWT and Security
-SECRET_KEY=supersecretkey
-ALGORITHM=HS256
-ACCESS_TOKEN_EXPIRE_MINUTES=30
+SECRET_KEY=
+ALGORITHM=
+ACCESS_TOKEN_EXPIRE_MINUTES=
 ```
 
 Make sure PostgreSQL is running locally and matches your `.env` settings.
