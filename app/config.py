@@ -14,5 +14,8 @@ class Settings(BaseSettings):
     class Config:
         env_file = '.env'
 
+import os
+print("DEBUG: Current working directory =", os.getcwd())
+print("DEBUG: .env exists? ", os.path.exists(".env"))
 
 settings = Settings()
